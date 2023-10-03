@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "planetorr")(type "Legacy")(uri "${KIPRJMOD}/extra_libs/eec.lib")(options "")(descr "")(disabled))
+  (lib (name "custom_syms")(type "KiCad")(uri "${KIPRJMOD}/custom_syms.kicad_sym")(options "")(descr ""))
+)

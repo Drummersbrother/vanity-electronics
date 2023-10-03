@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "planetorr")(type "KiCad")(uri "${KIPRJMOD}/extra_libs")(options "")(descr "")(disabled))
+  (lib (name "custom_stuff")(type "KiCad")(uri "${KIPRJMOD}/extra_libs/custom_stuff.pretty")(options "")(descr ""))
+)

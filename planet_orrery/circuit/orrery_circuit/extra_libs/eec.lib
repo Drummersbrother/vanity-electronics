@@ -1,0 +1,45 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Analog Devices LTC6995MPS6-1#TRMPBF
+#
+DEF LTC6995MPS6-1TRMPBF U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "LTC6995MPS6-1#TRMPBF" 0 300 50 H V L CNN 
+F2 "Analog_Devices-S6-6-05-08-1636-0-0-*" 0 400 50 H I L CNN 
+F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6995-6695-1-6695-2.pdf" 0 500 50 H I L CNN 
+F4 "No" 0 600 50 H I L CNN "automotive"
+F5 "IC" 0 700 50 H I L CNN "category"
+F6 "Integrated Circuits (ICs)" 0 800 50 H I L CNN "device class L1"
+F7 "Clock and Timing" 0 900 50 H I L CNN "device class L2"
+F8 "Timers and Oscillators" 0 1000 50 H I L CNN "device class L3"
+F9 "IC OSC SILICON PROG TSOT23-6" 0 1100 50 H I L CNN "digikey description"
+F10 "LTC6995MPS6-1#TRMPBFCT-ND" 0 1200 50 H I L CNN "digikey part number"
+F11 "https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-sot-23/SOT_6_05-08-1636.pdf" 0 1300 50 H I L CNN "footprint url"
+F12 "1mm" 0 1400 50 H I L CNN "height"
+F13 "Yes" 0 1500 50 H I L CNN "lead free"
+F14 "310aae92b02d22fc" 0 1600 50 H I L CNN "library id"
+F15 "Analog Devices" 0 1700 50 H I L CNN "manufacturer"
+F16 "+150°C" 0 1800 50 H I L CNN "max junction temp"
+F17 "5.5V" 0 1900 50 H I L CNN "max supply voltage"
+F18 "2.25V" 0 2000 50 H I L CNN "min supply voltage"
+F19 "Silicon Oscillator 0.0000000000291MHz to 0.000977MHz CMOS/Squarewave 6-Pin TSOT-23 Tape and Reel" 0 2100 50 H I L CNN "mouser description"
+F20 "584-C6995MPS6-1TMPF" 0 2200 50 H I L CNN "mouser part number"
+F21 "52-135uA" 0 2300 50 H I L CNN "nominal supply current"
+F22 "TSOT23-6" 0 2400 50 H I L CNN "package"
+F23 "Yes" 0 2500 50 H I L CNN "rohs"
+F24 "0.01mm" 0 2600 50 H I L CNN "standoff height"
+F25 "+125°C" 0 2700 50 H I L CNN "temperature range high"
+F26 "-55°C" 0 2800 50 H I L CNN "temperature range low"
+DRAW
+X DIV 4 1400 -200 100 L 40 40 1 1 I 
+X OUT 6 1400 0 100 L 40 40 1 1 P 
+X RST/~RST~ 1 100 -200 100 R 40 40 1 1 O 
+X SET 3 100 -400 100 R 40 40 1 1 I 
+X V+ 5 100 0 100 R 40 40 1 1 W 
+X GND 2 1400 -400 100 L 40 40 1 1 W 
+S 200 100 1300 -500 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
